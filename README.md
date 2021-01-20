@@ -1,25 +1,29 @@
-# Master CT Assignment Template 
+#  Calculate Payment
 
-Use this master template to create CT Assignment Templates.
 
 ## Problem Description
-Problem description goes here. 
+Your goal is to make a payment calculator for your employees. No overtime is given (that's another assignment).
 
-* Steps to take go here. 
+* The hourly rate is 15.25 dollars per hour. 
+* You will need to prompt the user for their hours for the week.
+    * Only whole numbers need to be considered for hours.
+* Return the salary for the week.
 
 ## Example
 ```
-Value to increment? 5
-10
+Weekly hours? 10
+returned salary: 152.50
+
+Weekly hours? 40
+returned salary: 610
 ```
 
 ## Suggested Approach
-1) Suggestions go here
+1) Prompt user for input (hours).
+2) Create variable for rate.
+3) Calculate salary based on hours and hourly rate.
+4) Return salary.
+5) Test your code by trying different hours worked. When it seems to work correctly, run pytest.
 
 ## Hints
-* Use the section under `if __name__ == '__main__': ` to change arguments and check your work.
-* When you are happy with your code, use `input()` to prompt the user for a value.
-* Add code to [my_code.py](./my_code.py) to make it do the desired thing.
-* Run your code with: `python my_code.py` or the run button
-* Run your tests with: `pytest`
-
+* Pay close attention to data types!
